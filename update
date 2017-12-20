@@ -1,1 +1,5 @@
+#!/bin/bash
+
 # Script diseñado por @Flashgz
+echo "Hola mundo"
+exit
