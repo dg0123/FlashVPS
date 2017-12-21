@@ -81,7 +81,7 @@ class SimpleHTTPProxyHandler(BaseHTTPRequestHandler):
         except socket.error:
             return
 
-        self.send_response(200, '<font color=red>Connecion Exitosa</font>')
+        self.send_response(200, 'status200ok')
         self.send_header('Connection', 'close')
         self.end_headers()
 
